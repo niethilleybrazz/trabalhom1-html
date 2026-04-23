@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SN Tecnologia - Cadastro de Vendas</title>
+  </head>
+  <body>
+    <header>
+        <img src="../img/ChatGPT Image 23 de abr. de 2026, 13_45_05.png" alt="SN Tecnologia" width="100px">
+      <h3>Gestão e Cadastro de Vendas</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Voltar para Home</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Novo Registro de Venda</h2>
+    
+      <form action="">
+        <label for="cliente">Cliente:</label>
+        <input
+          type="text"
+          id="cliente"
+          name="cliente"
+          placeholder="Nome do cliente"
+          required
+        />
+        <br />
+
+        <label for="produto">Produto:</label>
+        <select id="produto" name="produto" required>
+          <option value="">Selecione um produto</option>
+          <option value="software-erp">Software ERP</option>
+          <option value="seguranca-digital">Segurança Digital</option>
+          <option value="cloud-computing">Cloud Computing</option>
+          <option value="consultoria">Consultoria Tech</option>
+        </select>
+        <br />
+
+        <label for="quantidade">Quantidade:</label>
+        <input
+          type="number"
+          id="quantidade"
+          name="quantidade"
+          min="1"
+          value="1"
+          required
+        />
+        <br />
+
+        <label for="data">Data da Venda:</label>
+        <input type="date" id="data" name="data" required /> <br />
+
+        <label for="observacoes">Observações:</label>
+        <textarea
+          id="observacoes"
+          name="observacoes"
+          rows="3"
+          placeholder="Informações adicionais..."
+        ></textarea>
+        <br />
+
+        <button type="submit">Registrar Venda</button>
+      </form>
+
+      <h3>Vendas Recentes</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Cliente</th>
+            <th>Produto</th>
+            <th>Valor Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>20/04/2026</td>
+            <td>Empresa Alpha</td>
+            <td>Software ERP</td>
+            <td>R$ 15.000,00</td>
+          </tr>
+          <tr>
+            <td>21/04/2026</td>
+            <td>Carlos Silva</td>
+            <td>Cloud Computing</td>
+            <td>R$ 2.500,00</td>
+          </tr>
+          <tr>
+            <td>22/04/2026</td>
+            <td>Beta Corp</td>
+            <td>Segurança Digital</td>
+            <td>R$ 8.900,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>&copy; 2026 SN Tecnologia Ltda. - Contato: sntechnologia@gmail.com</p>
+    </footer>
+  </body>
+</html>
