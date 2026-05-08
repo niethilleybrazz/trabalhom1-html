@@ -1,0 +1,20 @@
+/* Seleção por Tag */
+body {
+    background-color: #eef2f3;
+    color: #333333;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Seleção por ID */
+#main-title {
+    color: #1a237e;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/* Seleção por Classe */
+.nav-links {
+    background-color: #3949ab;
+    color: #ffffff;
+    font-weight: 500;
+}
