@@ -1,53 +1,45 @@
-/* Seleção por Tag */
 body {
   background-color: #eef2f3;
   color: #333333;
   font-family: "Verdana", sans-serif;
 }
 
-/* Seleção por ID */
 #main-title {
   color: #1a237e;
   font-size: 32px;
   text-transform: uppercase;
 }
 
-/* Seleção por Classe */
 .nav-links {
   background-color: #3949ab;
   color: #ffffff;
   font-weight: 500;
 }
 
-/* Nova regra 1: Seletor Descendente */
 header img {
   padding: 10px;
   margin: 10px 0;
   border: 2px solid #3949ab;
 }
 
-/* Nova regra 2: Seletor de Atributo */
 input[type="text"] {
   width: 300px;
   padding: 8px;
   font-family: "Arial", sans-serif;
 }
 
-/* Nova regra 3: Seletor de Pseudo-classe (Evento - hover) */
 .nav-links a:hover {
   background-color: #1a237e;
   color: #ffeb3b;
   opacity: 0.9;
 }
 
-/* Nova regra 4: Seletor Filho */
 main > h2 {
   color: #3949ab;
   font-size: 28px;
   margin: 20px 0;
 }
 
-/* Nova regra 5: Seletor Irmão Adjacente */
 h3 + p {
   color: #555555;
   padding: 10px 0;
